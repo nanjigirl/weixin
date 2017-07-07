@@ -1,0 +1,67 @@
+*{margin:0;padding:0;}
+/*css初始化*/
+body{width:100%;min-height:100%;font:400 14px/22px Arial,"Microsoft YaHei" !important;margin:0 auto;
+background-color:#fff;}
+em, footer, h1, h2, h3, h4, input, li, mark, nav, ol, p, section, span, textarea, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    list-style: none;
+    font-style: normal;
+}
+
+a {
+    outline-style: none;
+    text-decoration: none;
+}
+/*组件*/
+#main-panel{overflow:hidden;}
+.menus{color:#A8A9AD !important;
+    width:120px;
+    padding:20px 0;
+    float:left;
+    border-right:1px solid #f0f0f0;
+    background: #f7f7f7;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0, 0, 0);}
+.menus li{border-left:4px solid transparent;}
+.menus li a{
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
+.active{
+    border-left:4px solid #058 !important;
+}
+.all_list{
+    width:calc(100% - 161px);
+    padding:20px;
+    background:#fff;
+    float:left;
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+.menus li{
+    line-height:3rem;
+    font-size:18px;
+    text-align:center;
+    color:#999;
+    position:relative;
+}
+.type{display:none;}
+.type h2{
+    line-height:2.4rem;
+    background: #38c;
+    color:#fff;
+    border-radius:.2rem;
+    text-align: center;
+}
+.type p{
+    font-size:16px;
+    line-height:1.8rem;
+    padding-left:1rem;
+}
+.show{display:block;}
